@@ -8,6 +8,15 @@
 
 /* ### UTILS */
 
+:root {
+  --main-space: 500px;
+  --square-space: 350px;
+  --side-padding: 0 200px;
+  --border: 2px dashed black;
+  --colorwhite: white;
+  --title: 40px;
+}
+
 .container {
   max-width: 1080px;
   padding: 0 20px;
@@ -16,6 +25,16 @@
 
 .w-25 {
   width: 25%;
+}
+
+.title {
+  font-size: var(--title);
+  padding-bottom: 20px;
+}
+
+.subtitle {
+  line-height: 25px;
+  margin-bottom: 15px;
 }
 
 /* ### PAGE */
@@ -52,7 +71,7 @@
   text-decoration: none;
   color: var(--colorwhite);
   padding: 15px;
-  color: white;
+  color: var(--colorwhite);
 }
 
 button {
@@ -66,19 +85,33 @@ button {
 
 .jumbotron {
   padding: 3rem 0;
-
+  background-image: url("../img/jumbo.png");
+  background-size: cover;
+  color: var(--colorwhite);
+  text-align: center;
   /* debug */
-  background-color: #00008b;
+  /* background-color: #00008b; */
 }
 
 .jumbotron .jumbotron__content {
-  width: 800px;
+  width: 500px;
   margin: 0 auto;
 
   /* debug */
-  background-color: #ee82ee;
+  /* background-color: #ee82ee;
   border: 2px dashed black;
-  height: 400px;
+  height: 400px; */
+}
+
+.title-jumbotron {
+  font-size: var(--title);
+  padding: 20px;
+}
+
+.open-button {
+  background-color: black;
+  color: var(--colorwhite);
+  margin-left: 20px;
 }
 
 /* ## ROWS SECTION */
@@ -107,21 +140,25 @@ main > section .col-big,
 main > section .col-small {
   /* debug */
   height: 400px;
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
 }
 
 main > section .col-big {
   flex-basis: 60%;
 
   /* debug */
-  background-color: #1e90ff;
+  /* background-color: #1e90ff; */
 }
 
 main > section .col-small {
   flex-basis: 40%;
-
+  padding: 30px 60px 0 60px;
   /* debug */
-  background-color: #ffc0cb;
+  /* background-color: #ffc0cb; */
+}
+
+.item {
+  height: 400px;
 }
 
 main > .download > .container {
