@@ -3,73 +3,85 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Discord</title>
+    <title>Discord Struttura Blocchi</title>
+
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="wrapper">
-        <div class="logo-header">
+    <!-- # HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__logo">
           <img src="./img/logo.svg" alt="logo-header" />
         </div>
-        <div class="link-header">
+        <div class="header__nav">
           <a href="#" class="link">Scarica</a>
           <a href="#" class="link">Perchè Discord</a>
           <a href="#" class="link">Nitro</a>
           <a href="#" class="link">Sicurezza</a>
           <a href="#" class="link">Assistenza</a>
         </div>
-        <div class="login-header">
+        <div class="header__login">
           <button class="login-button">Accedi</button>
         </div>
       </div>
     </header>
+    <!-- # FINE HEADER -->
 
+    <!-- # MAIN -->
     <main>
-      <section class="section section1">
-        <div class="one-rec">
-          <h1 class="title-section1">Il tuo posto per parlare</h1>
-          <p class="subtitle">
-            Che tu faccia perte di un club scolastico, gruppo di gamer, comunità
-            artistica mondiale, o semplicemente di un piccolo gruppo di amici
-            che vuole passare il tempo insieme, Discord rende più facile
-            chiacchierare ogni giorno e ritrovarsi più spesso.
-          </p>
-          <button class="download-button">↓ Scarica per Mac</button>
-          <button class="open-button">Apri Discord nel tuo browser</button>
+      <!-- JUMBO -->
+      <div class="jumbotron">
+        <div class="jumbotron__content"></div>
+      </div>
+
+      <section>
+        <div class="container">
+          <div class="col-big"></div>
+          <div class="col-small"></div>
         </div>
       </section>
-      <section class="section section2 two-rec">
-        <div class="rec-sec-2-1"></div>
-        <div class="rec-sec-2-2"></div>
+
+      <section>
+        <div class="container">
+          <div class="col-big"></div>
+          <div class="col-small"></div>
+        </div>
       </section>
-      <section class="section section3 two-rec">
-        <div class="rec-sec-2-1"></div>
-        <div class="rec-sec-2-2"></div>
+
+      <section>
+        <div class="container">
+          <div class="col-big"></div>
+          <div class="col-small"></div>
+        </div>
       </section>
-      <section class="section section4 two-rec">
-        <div class="rec-sec-2-1"></div>
-        <div class="rec-sec-2-2"></div>
-      </section>
-      <section class="section section5">
-        <div class="one-rec rec-sec-5"></div>
+
+      <section class="download">
+        <div class="container">
+          <div class="col"></div>
+        </div>
       </section>
     </main>
+    <!-- # FINE MAIN -->
 
-    <footer>
-      <section class="section section6">
-        <div class="one-rec rec-sec-6 rec-sec-6-1"></div>
-        <div class="one-rec rec-sec-6 rec-sec-6-2"></div>
-        <div class="one-rec rec-sec-6 rec-sec-6-2"></div>
-        <div class="one-rec rec-sec-6 rec-sec-6-2"></div>
-        <div class="one-rec rec-sec-6 rec-sec-6-2"></div>
-      </section>
-      <section class="footer-bottom">
-        <div class="foot-wrapper">
-          <div class="logo foot-img">Logo</div>
-          <div class="bottone foot-img">Bottone</div>
+    <!-- # FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="upper-footer">
+          <div class="col-small"></div>
+          <div class="col-big">
+            <div class="w-25"></div>
+            <div class="w-25"></div>
+            <div class="w-25"></div>
+            <div class="w-25"></div>
+          </div>
         </div>
-      </section>
+        <div class="bottom-footer">
+          <div class="logo">Logo</div>
+          <div class="button">Bottone</div>
+        </div>
+      </div>
     </footer>
+    <!-- # END FOOTER -->
   </body>
 </html>
