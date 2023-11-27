@@ -207,7 +207,7 @@ main > .download .col {
 .footer .upper-footer {
   display: flex;
 
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid rgb(70 83 121);
   margin-bottom: 2rem;
 }
 
@@ -263,9 +263,9 @@ main > .download .col {
   justify-content: space-between;
   align-items: center;
 
-  /* debug */
+  /* debug
   height: 100px;
-  background-color: #7fffd4;
+  background-color: #7fffd4; */
 }
 
 .bottom-footer > .logo,
@@ -273,6 +273,6 @@ main > .download .col {
   padding: 5px 10px;
 
   /* debug */
-  background-color: #fdb5bf;
-  border: 2px dashed black;
+  /* background-color: #fdb5bf;
+  border: 2px dashed black; */
 }
