@@ -224,6 +224,21 @@ main > .download .col {
   padding: 50px;
 }
 
+h3 {
+  font-size: 25px;
+}
+
+.select-language {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.bandiera-italiana {
+  height: 20px;
+  margin-right: 5px;
+}
+
 .footer-title,
 .footer-list-title {
   color: rgb(114 137 218);
@@ -262,7 +277,7 @@ main > .download .col {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding-bottom: 100px;
   /* debug
   height: 100px;
   background-color: #7fffd4; */
