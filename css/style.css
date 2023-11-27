@@ -9,10 +9,6 @@
 /* ### UTILS */
 
 :root {
-  --main-space: 500px;
-  --square-space: 350px;
-  --side-padding: 0 200px;
-  --border: 2px dashed black;
   --colorwhite: white;
   --title: 40px;
 }
@@ -211,7 +207,6 @@ main > .download .col {
 .footer .upper-footer {
   display: flex;
 
-  padding-bottom: 2rem;
   border-bottom: 1px solid white;
   margin-bottom: 2rem;
 }
@@ -220,9 +215,31 @@ main > .download .col {
   width: 30%;
 
   /* debug */
-  height: 500px;
+  /* height: 500px;
   background-color: #f08080;
-  border: 2px dashed black;
+  border: 2px dashed black; */
+}
+
+.footer-col-small {
+  padding: 50px;
+}
+
+.footer-title,
+.footer-list-title {
+  color: rgb(114 137 218);
+}
+
+.footer-list-item {
+  color: var(--colorwhite);
+}
+
+.footer-list {
+  list-style-type: none;
+  line-height: 30px;
+}
+
+.language {
+  color: var(--colorwhite);
 }
 
 .footer .upper-footer > .col-big {
@@ -230,13 +247,15 @@ main > .download .col {
   display: flex;
 
   /* debug */
-  height: 500px;
+  /* height: 500px;
   background-color: #20b2aa;
-  border: 2px dashed black;
+  border: 2px dashed black; */
 }
 
 .footer .col-big > .w-25 {
-  border: 2px dashed white;
+  padding: 50px;
+  /*debug*/
+  /* border: 2px dashed white; */
 }
 
 .footer .bottom-footer {
