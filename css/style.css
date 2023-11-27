@@ -125,7 +125,7 @@ main > section:nth-of-type(odd) {
 }
 
 main > section:nth-of-type(even) {
-  background-color: #d3d3d3;
+  background-color: rgb(246 246 246);
 }
 
 main > section > .container {
@@ -157,19 +157,48 @@ main > section .col-small {
   /* background-color: #ffc0cb; */
 }
 
+.download-title,
+.download-subtitle,
+.download-question {
+  text-align: center;
+}
+
+.download-subtitle {
+  padding: 0 135px;
+}
+
 .item {
   height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 main > .download > .container {
   display: block;
 }
 
+.background-stars {
+  background-image: url("../img/stars.svg");
+  padding: 20px 100px;
+  margin-top: 30px;
+}
+
+.center-button {
+  text-align: center;
+}
+
+.download-button-second {
+  background-color: rgb(142 161 225);
+  color: var(--colorwhite);
+}
+
 main > .download .col {
   /* debug */
-  height: 800px;
+  /* height: 800px;
   background-color: #228b22;
-  border: 2px dashed black;
+  border: 2px dashed black; */
 }
 
 /* ## FOOTER */
